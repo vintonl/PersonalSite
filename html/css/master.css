@@ -8,14 +8,6 @@ h1 {
   text-align: center;
 }
 
-p.dropLine {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  left: 69%;
-}
-
 h2 {
   color: #3c3c3c;
   text-align: left;
@@ -28,22 +20,6 @@ p {
   text-align: left;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.relative {
-  position: absolute;
-  left: 15%;
-}
-
-img.denverPhoto {
-  position: static;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 6px;
-  margin-top: 5%;
 }
 
 h3 {
@@ -108,4 +84,21 @@ footer {
 table {
   margin-left: auto;
   margin-right: auto;
+}
+
+.thumbnail {
+    position: static;
+    max-width: 100%;
+    /* height: auto; */
+    /* display: block; */
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 5%;
+}
+
+.caption {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
 }
