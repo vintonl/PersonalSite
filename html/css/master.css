@@ -1,3 +1,111 @@
+body {
+  background-image: url("https://i.imgur.com/cR0MUqk.jpg");
+}
+
 h1 {
-  color: red;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p.dropLine {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 69%;
+}
+
+h2 {
+  color: #3c3c3c;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+p {
+  color: #3c3c3c;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.relative {
+  position: absolute;
+  left: 15%;
+}
+
+img.denverPhoto {
+  position: static;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  margin-top: 5%;
+}
+
+h3 {
+  color: #3c3c3c;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #3399ff;
+  text-align: left;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+div.ex2 {
+  /* max-width: 90%; */
+  border: 1px solid #3c3c3c;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 6px;
+}
+
+img {
+  max-width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  max-width: 30px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
