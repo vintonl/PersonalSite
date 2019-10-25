@@ -1,5 +1,6 @@
 body {
-  background-image: url("https://i.imgur.com/cR0MUqk.jpg");
+  /* background-image: url("https://i.imgur.com/cR0MUqk.jpg"); */
+background-color: #202020;
 }
 
 h1 {
@@ -9,21 +10,21 @@ h1 {
 }
 
 h2 {
-  color: #3c3c3c;
+  color: #202020;
   text-align: left;
   margin-left: 10px;
   margin-right: 25px;
 }
 
 p {
-  color: #3c3c3c;
+  color: #202020;
   text-align: left;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 h3 {
-  color: #3c3c3c;
+  color: #202020;
   text-align: left;
   margin-left: 25px;
   margin-right: 25px
@@ -35,7 +36,7 @@ li {
 
 li a {
   display: block;
-  color: #3399ff;
+  color: #202020;
   text-align: left;
   padding: 10px 15px;
   text-decoration: none;
@@ -48,12 +49,12 @@ li a:hover {
 
 div.ex2 {
   /* max-width: 90%; */
-  border: 1px solid #3c3c3c;
+  border: 1px solid #202020;
   background-color: white;
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  border-radius: 6px;
+  border-radius: 2px;
 }
 
 img {
@@ -79,6 +80,7 @@ img {
 footer {
   text-align: center;
   font-size: 12px;
+  color: white;
 }
 
 table {
@@ -99,6 +101,6 @@ table {
 .caption {
     position: absolute;
     top: 65%;
-    left: 0;
+    left: 0%;
     width: 100%;
 }
