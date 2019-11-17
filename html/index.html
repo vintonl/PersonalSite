@@ -1,136 +1,358 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Vinton E. Lee, III</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151903235-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-    gtag('config', 'UA-151903235-1');
-  </script>
-  <link rel="stylesheet" href="css/master.css">
-  <title>Vinton Lee, III</title>
+  <!-- CSS -->
+  <link href="css/master.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Vinton E. Lee, III</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Vinton, E. Lee, III</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Portfolio
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="http://3.132.229.160:8080/MVCFilmSite/home.do" target="_blank">Film Query - Spring MVC Film CRUD</a>
-            <a class="dropdown-item" href="https://github.com/vintonl/SpringMVCFilmCRUD" target="_blank">Spring MVC Film CRUD on Github</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://3.132.229.160:8080/GroceryList/" target="_blank">Grocery List - JPA CRUD Project</a>
-            <a class="dropdown-item" href="https://github.com/vintonl/JPACRUDProject" target="_blank">Grocery List on Github</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://github.com/vintonl/PersonalSite" target="_blank">Personal Site on Github</a>
-          </div>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Resume
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Experience</a>
-            <a class="dropdown-item" href="#">Skills</a>
-            <a class="dropdown-item" href="#">Education</a>
-          </div>
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/vintonlee/" target="_blank">Linkedin</a>
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/vintonl" target="_blank">Github</a>
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/blog.html">Blog</a>
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <!-- <header class="py-5 bg-image-full" style="background-image: url('https://i.imgur.com/4tMFJPy.jpg');">
-      <img class="img-fluid d-block mx-auto" src="http://placehold.it/200x200&text=Logo" alt="">
-      <h1>Vinton E. Lee, III</h1>
+  <div class="container-fluid p-0">
 
-    </header> -->
-
-  <div class="container">
-
-    <div class="row" id="box-search">
-      <div class="thumbnail text-center">
-        <img src="https://i.imgur.com/4tMFJPy.jpg" alt="DenverSkyline" class="py-5 bg-image-full">
-        <div class="caption text-center">
-          <h1>Vinton E. Lee, III</h1>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">
+          <span class="text-primary">Vinton </span>E.
+          <span class="text-primary">Lee</span>, III
+        </h1>
+        <div class="subheading mb-5">Englewood, CO 80111 ·
+          <a href="mailto:vinton.e.lee@gmail.com">vinton.e.lee@gmail.com</a>
+        </div>
+        <p class="lead mb-5">I am experienced in leveraging agile frameworks to implement sound software development for high-level results for corporate strategy by fostering collaborative thinking to further the overall value proposition</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/vintonlee/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/vintonl" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/vintonlee/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/vinton.e.lee" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="ex2">
-      <h3 class="text-center">About Me:</h3>
-      <p>I am a driven leader, marketer, and relationship improvement expert. These claims have been proven in my former role as an Area Director for Young Life, and they have also been demonstrated many times in my professional career when building
-        important relationships with executives, business owners, supervisors, coworkers, customers, and influencers.</p>
-      <hr />
-      <h3 class="text-center">Why I do software development:</h3>
-      <p>I have reached a point in my prior career path that I feel it would be best for me to change careers. I see becoming a Full Stack Java Developer as a valuable skill and a career direction that fits the way I think, I function, and I work. I
-        have invested significant time to see if programming is a strong fit for my personality strengths and career goals, and I feel as though becoming a Full Stack Developer will be a great fit for a new career and direction</p>
-      <hr />
-      <h3 class="text-center">What I enjoy as a get to work:</h3>
-      <p>I continually look for innovative, beneficial, and increasingly productive ways to accomplish tasks and exceed goals. I am driven to accomplish relevant goals by taking the initiative to discover the strategies and pathways needed. I work
-        exceptionally well on teams as well as autonomously, thrive in collaborative environments, and have a demonstrated ability to inspire others.</p>
-      <hr />
-      <h3 class="text-center">What I am passionate about:</h3>
-      <p>My passion is for assessing and analyzing issues, offering appropriate solutions, and completing responsibilities and goals. I am also passionate about learning, improving, and seeking mentorship and coaching from successful people.</p>
-    </div>
-    <footer>
-      <p></p>
-      <table>
-        <tr>
-          <th>
-            <a href="https://github.com/vintonl" target="_blank">
-              <img src="images/githublogo.png" alt="Github" class="footer">
-            </a>
-          </th>
-          <th>
-            <a href="https://www.linkedin.com/in/vintonlee/" target="_blank">
-              <img src="images/linkedin-icon-no-background-8.png" alt="Linkedin" class="footer">
-            </a>
-          </th>
-        </tr>
-      </table>
-      <footer>Created by: Vinton E. Lee, III</footer>
-    </footer>
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-bootstrap"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-atom"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-aws"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-linux"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-github"></i>
+          </li>
+
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mobile-First, Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Test-Driven Development</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross-Functional Teams</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
+      <div class="w-100">
+        <h2 class="mb-5">Portfolio</h2>
+        <div class="card-rows card-group">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <p class="card-text"><i class="fas fa-shopping-cart"></i> Grocery List <br> JPA CRUD Project</p>
+              <a href="http://3.132.229.160:8080/GroceryList/" target="_blank" class="card-link"> <i class="fab fa-aws"></i> </a>
+              <a href="https://github.com/vintonl/JPACRUDProject" target="_blank" class="card-link"> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+
+          <div class="card bg-light">
+            <!-- <img class="card-img-top" src="img/profile.jpg" alt="Card image cap" > -->
+            <div class="card-body text-center">
+              <p class="card-text"><i class="fas fa-video"></i> Film Query <br> Spring MVC CRUD Project <br> Pair-Programming</p>
+              <a href="http://3.132.229.160:8080/MVCFilmSite/" target="_blank" class="card-link"><i class="fab fa-aws"></i></a>
+              <a href="https://github.com/vintonl/SpringMVCFilmCRUD" target="_blank" class="card-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <!-- <p class="card-text"><i class="fas fa-money-bill-alt"></i> Make Change <br> First Java Program</p>
+              <a href="https://github.com/vintonl/Jets" target="_blank" class="card-link"> <i class="fab fa-github"></i> </a> -->
+            </div>
+          </div>
+
+        </div>
+        <div class="card-rows card-group">
+
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <p class="card-text"><i class="fas fa-gamepad"></i> Blackjack <br> Java  <br> Object-Oriented Programming</p>
+              <a href="https://github.com/vintonl/BlackjackProject" target="_blank" class="card-link"> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <p class="card-text"><i class="fas fa-fighter-jet"></i> Jets<br> Java  <br> Object-Oriented Programming</p>
+              <a href="https://github.com/vintonl/Jets" target="_blank" class="card-link"> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <p class="card-text"><i class="fas fa-money-bill-alt"></i> Make Change <br> Java <br> First Project</p>
+              <a href="https://github.com/vintonl/Jets" target="_blank" class="card-link"> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Area Director</h3>
+            <div class="subheading mb-3">Young Life - Buena Vista, CO</div>
+            <ul>
+              <li>
+                Built Arkansas Valley Young Life into thriving and impactful programs by building trust, developing strong community advocacy, and increasing effectiveness for overall organizational development.
+              </li>
+              <li>
+                Increased overall effectiveness by increasing kids mentored and impacted weekly basis by 700%.
+              </li>
+              <li>
+                Expanded, retained, secured, and increased financial support by 33% in Buena Vista.
+              </li>
+              <li>
+                Developed marketing and communications materials including writing promotional copy, graphic design, website content management, SEO, email campaigns, social media campaigns, and promotional scripts
+              </li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2011 - July 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Staff Associate II</h3>
+            <div class="subheading mb-3">Young Life - Bandera County, TX</div>
+            <ul>
+              <li>
+                Built framework for a thriving program that is now financially strong and effectively reaching its mission.
+              </li>
+              <li>
+                Increased overall effectiveness by increasing kids mentored and impacted weekly basis by 750%.
+              </li>
+              <li>
+                Increased revenue by 124% by applying business, marketing, and development skills
+              </li>
+              <li>
+                Completed an intensive two-year training program to become an Area Director.
+              </li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">November 2009 - September 2011</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Personal Banker II</h3>
+            <div class="subheading mb-3">TBK Bank - Buena Vista, CO</div>
+            <ul>
+              <li>
+                Provided superb front-end sales and customer service to account holders including assisting with questions and problems concerning products and services to help with revenue growth for the bank.
+              </li>
+              <li>Collaborated cross-departmentally by entering financial data and processing payments for the loan team.
+              </li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2006 - November 2009</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Skill Distillery</h3>
+            <div class="subheading mb-3">Software Development Intensive Emersion Program</div>
+            <div></div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2019 - January 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Fuller Theological Seminary</h3>
+            <div class="subheading mb-3">Master of Arts in Christian Leadership</div>
+            <div></div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2009 - August 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Texas Tech University</h3>
+            <div class="subheading mb-3">Bachelor of Business Administration </div>
+            <ul>
+              <li>
+                Marketing &amp; General Business</li>
+            </ul>
+
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2001 - May 2005</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a software developer, I enjoy most of my time being outdoors and with my family. In the winter, I am an avid skier and runner. During the warmer months, I enjoy mountain biking, kayaking, and fly-fishing.</p>
+        <p class="mb-0">When obligated indoors, I follow several of action and suspense genre movies and television shows, read the news, cook culinary delights, and I spend a large amount of my free time exploring the latest technology advancements
+          in the web development world.</p>
+      </div>
+    </section>
 
   </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts -->
+  <script src="js/resume.min.js"></script>
+
 </body>
 
 </html>
